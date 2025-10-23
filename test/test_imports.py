@@ -15,7 +15,7 @@ try:
     print("✅ config_system imported successfully")
     
     # Test cosmos_model_advanced import
-    from cosmos_model_advanced import CosmosAdvancedModel
+    from core.cosmos_model_advanced import CosmosAdvancedModel
     print("✅ cosmos_model_advanced imported successfully")
     
     # Test model creation

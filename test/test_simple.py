@@ -1,7 +1,7 @@
 # test_simple.py - اختبار مبسط للنموذج
 import torch
 from config_system import CosmosAdvancedConfig
-from cosmos_model_advanced import CosmosAdvancedModel
+from core.cosmos_model_advanced import CosmosAdvancedModel
 
 def test_basic_model():
     """اختبار النموذج الأساسي"""

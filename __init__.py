@@ -24,8 +24,8 @@ __author__ = "Cosmos AI Team"
 __license__ = "MIT"
 
 # استيراد المكونات الرئيسية
-from .cosmos_model_advanced import CosmosAdvancedModel
-from .config_system import (
+from .core.cosmos_model_advanced import CosmosAdvancedModel
+from .core.config_system import (
     CosmosAdvancedConfig,
     ReasoningConfig,
     PlanningConfig,

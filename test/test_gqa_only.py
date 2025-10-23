@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import torch
 from config_system import CosmosAdvancedConfig
-from cosmos_model_advanced import CosmosAdvancedModel, CosmosAdvancedModel
+from core.cosmos_model_advanced import CosmosAdvancedModel, CosmosAdvancedModel
 
 print("🚀 اختبار أساسي لـ Cosmos بدون safety system")
 print("="*60)

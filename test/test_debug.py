@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import torch
 from config_system import CosmosAdvancedConfig
-from cosmos_model_advanced import CosmosAdvancedModel
+from core.cosmos_model_advanced import CosmosAdvancedModel
 
 print("🚀 بدء اختبار مصغر لـ Cosmos Advanced")
 print("="*50)

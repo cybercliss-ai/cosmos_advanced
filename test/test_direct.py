@@ -18,7 +18,7 @@ def test_cosmos_model():
         from config_system import CosmosAdvancedConfig
         print("✅ تم استيراد CosmosAdvancedConfig بنجاح")
         
-        from cosmos_model_advanced import CosmosAdvancedModel
+        from core.cosmos_model_advanced import CosmosAdvancedModel
         print("✅ تم استيراد CosmosAdvancedModel بنجاح")
         
         # إنشاء تكوين مبسط

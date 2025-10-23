@@ -9,8 +9,8 @@ print("🔍 اختبار سريع لـ Cosmos Advanced - GQA Fix")
 print("="*55)
 
 try:
-    from cosmos_model_advanced import CosmosAdvancedModel
-    from config_system import CosmosAdvancedConfig
+    from core.cosmos_model_advanced import CosmosAdvancedModel
+    from .core.config_system import CosmosAdvancedConfig
     
     print("✅ تم تحميل المكتبات بنجاح")
     

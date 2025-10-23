@@ -4,14 +4,14 @@ import sys
 import os
 sys.path.append(os.path.dirname(__file__))
 
-from config_system import (
+from .core.config_system import (
     CosmosAdvancedConfig,
     ReasoningMode,
     LearningMode,
     SafetyLevel,
     VerbosityLevel
 )
-from cosmos_model_advanced import CosmosAdvancedModel
+from core.cosmos_model_advanced import CosmosAdvancedModel
 
 def example_1_basic_usage():
     """مثال 1: استخدام أساسي"""
