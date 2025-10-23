@@ -1,0 +1,22 @@
+# Cosmos Advanced AI Model - Requirements
+
+# Core Dependencies
+torch>=2.0.0
+transformers>=4.30.0
+
+# Optional but Recommended
+numpy>=1.24.0
+scipy>=1.10.0
+
+# For visualization (optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# For better performance (optional)
+triton>=2.0.0  # for optimized kernels
+flash-attn>=2.0.0  # for faster attention
+
+# Development tools (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
